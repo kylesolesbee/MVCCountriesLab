@@ -1,0 +1,14 @@
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\bin\Debug\net6.0\MVCCountriesLab.exe
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\bin\Debug\net6.0\MVCCountriesLab.deps.json
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\bin\Debug\net6.0\MVCCountriesLab.runtimeconfig.json
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\bin\Debug\net6.0\MVCCountriesLab.dll
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\bin\Debug\net6.0\MVCCountriesLab.pdb
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\obj\Debug\net6.0\MVCCountriesLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\obj\Debug\net6.0\MVCCountriesLab.AssemblyInfoInputs.cache
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\obj\Debug\net6.0\MVCCountriesLab.AssemblyInfo.cs
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\obj\Debug\net6.0\MVCCountriesLab.csproj.CoreCompileInputs.cache
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\obj\Debug\net6.0\MVCCountriesLab.dll
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\obj\Debug\net6.0\refint\MVCCountriesLab.dll
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\obj\Debug\net6.0\MVCCountriesLab.pdb
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\obj\Debug\net6.0\MVCCountriesLab.genruntimeconfig.cache
+C:\Users\ksole\Documents\GrandCircus\MVCCountriesLab\obj\Debug\net6.0\ref\MVCCountriesLab.dll
