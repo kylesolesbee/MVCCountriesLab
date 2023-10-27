@@ -1,15 +1,24 @@
-﻿namespace MVCCountriesLab
+﻿using System.Diagnostics.Metrics;
+
+namespace MVCCountriesLab
 {
     public class CountryController
     {
-        private List<Country> CountryDB = new List<Country>
+        public List<CountryModel> CountryDB = new List<CountryModel>
     {
-        new Country { Name = "USA", Continent = "North America", Colors = new List<string> { "Red", "White", "Blue" } },
-        new Country { Name = "France", Continent = "Europe", Colors = new List<string> { "Blue", "White", "Red" } },
-        new Country { Name = "Japan", Continent = "Asia", Colors = new List<string> { "Red", "White" } },
+        new CountryModel { Name = "USA", Continent = "North America", Colors = new List<string> { "Red", "White", "Blue" } },
+        new CountryModel { Name = "France", Continent = "Europe", Colors = new List<string> { "Blue", "White", "Red" } },
+        new CountryModel { Name = "Japan", Continent = "Asia", Colors = new List<string> { "Red", "White" } },
+        new CountryModel { Name = "Germany", Continent = "Europe", Colors = new List<string> { "Black", "Red", "Yellow" } },
+        new CountryModel { Name = "Austria", Continent = "Europe", Colors = new List<string> { "Red", "White" } },
+        new CountryModel { Name = "Romania", Continent = "Europe", Colors = new List<string> { "Blue", "Yellow", "Red" } },
+        new CountryModel { Name = "Poland", Continent = "Europe", Colors = new List<string> { "White", "Red" } },
+        new CountryModel { Name = "Italy", Continent = "Europe", Colors = new List<string> { "Green", "White", "Red" } },
+        new CountryModel { Name = "Botswana", Continent = "Africa", Colors = new List<string> { "Cyan", "White", "Black" } },
+        new CountryModel { Name = "Brazil", Continent = "Africa", Colors = new List<string> { "Yellow", "Green", "Blue", "White" } },
     };
 
-        public void CountryAction(Country c)
+        public void CountryAction(CountryModel c)
         {
             CountryView countryView = new CountryView(c);
             countryView.Display();
@@ -34,7 +43,7 @@
                     }
                     if (selectedIndex > 0 && selectedIndex <= CountryDB.Count)
                     {
-                        Country selectedCountry = CountryDB[selectedIndex - 1];
+                        CountryModel selectedCountry = CountryDB[selectedIndex - 1];
                         CountryAction(selectedCountry);
 
                         Console.Write("Would you like to learn about another country? (y/n): ");

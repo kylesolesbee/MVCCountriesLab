@@ -1,6 +1,6 @@
 ﻿namespace MVCCountriesLab
 {
-    public class Country
+    public class CountryModel
     {
         public string Name { get; set; }
         public string Continent { get; set; }

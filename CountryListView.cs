@@ -2,9 +2,9 @@
 {
     public class CountryListView
     {
-        public List<Country> Countries { get; private set; }
+        public List<CountryModel> Countries { get; private set; }
 
-        public CountryListView(List<Country> countries)
+        public CountryListView(List<CountryModel> countries)
         {
             Countries = countries;
         }

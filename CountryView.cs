@@ -2,18 +2,21 @@
 {
     public class CountryView
     {
-        public Country DisplayCountry { get; private set; }
+        public CountryModel DisplayCountry { get; private set; }
 
-        // Define a mapping of country colors to console colors
-        private static Dictionary<string, ConsoleColor> colorMap = new Dictionary<string, ConsoleColor>
-    {
-        { "Red", ConsoleColor.Red },
-        { "White", ConsoleColor.White },
-        { "Blue", ConsoleColor.Blue }
-        // Add more colors as needed
-    };
+        public static Dictionary<string, ConsoleColor> colorMap = new Dictionary<string, ConsoleColor>
+        {
+            { "Red", ConsoleColor.Red },
+            { "White", ConsoleColor.White },
+            { "Blue", ConsoleColor.Blue },
+            { "Black", ConsoleColor.DarkGray },
+            { "Yellow", ConsoleColor.Yellow },
+            { "Cyan", ConsoleColor.Cyan },
+            { "Green", ConsoleColor.Green }
+        };
 
-        public CountryView(Country country)
+
+        public CountryView(CountryModel country)
         {
             DisplayCountry = country;
         }
@@ -24,7 +27,6 @@
             Console.WriteLine($"Continent: {DisplayCountry.Continent}");
             Console.WriteLine("Colors:");
 
-            // Change console colors based on the country's colors
             foreach (var color in DisplayCountry.Colors)
             {
                 if (colorMap.ContainsKey(color))
@@ -34,7 +36,6 @@
                 Console.WriteLine($"- {color}");
             }
 
-            // Reset console colors to their default values
             Console.ResetColor();
         }
     }
